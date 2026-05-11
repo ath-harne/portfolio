@@ -1,5 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Skills from './pages/Skills'
@@ -22,6 +24,7 @@ const App = () => {
 
 
     </Routes>
+    <ToastContainer position="top-right" autoClose={3000} />
     </div>
   )
 }

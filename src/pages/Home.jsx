@@ -15,8 +15,13 @@ const Home = () => {
          Constantly learning new technologies and best practices to improve system performance, 
         reliability, and code quality.
       </p>
-      <button className='mt-8 text-3xl border border-gray-500 rounded-md px-1 py-1  hover:bg-blue-500 hover:text-white
-  transition duration-300'>Get resume</button>
+      <a
+        href="/resume.pdf"
+        download="Atharva_Harne_Resume.pdf"
+        className='mt-8 inline-block text-lg font-bold border border-gray-500 rounded-md px-4 py-2 hover:bg-blue-500 hover:text-white transition duration-300'
+      >
+        Get Resume ↓
+      </a>
     </div>
     </section>
   )
