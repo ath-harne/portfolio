@@ -2,6 +2,8 @@ import React from 'react'
 import background_home_image from '../assets/background_home_image.png'
 
 const Home = () => {
+  const resumeUrl = `${import.meta.env.BASE_URL}Atharva_Harne_Resume.pdf`
+
   return (
     <section className='min-h-screen bg-no-repeat bg-center w-full bg-cover flex items-center' style={{backgroundImage:`url(${background_home_image})`}}>
     <div className='px-28 py-24 '> 
@@ -16,8 +18,8 @@ const Home = () => {
         reliability, and code quality.
       </p>
       <a
-        href="/resume.pdf"
-        download="Atharva_Harne_Resume.pdf"
+        href={resumeUrl}
+        download='Atharva_Harne_Resume.pdf'
         className='mt-8 inline-block text-lg font-bold border border-gray-500 rounded-md px-4 py-2 hover:bg-blue-500 hover:text-white transition duration-300'
       >
         Get Resume ↓

@@ -35,20 +35,22 @@ const Projects = () => {
 
       <div class="group relative p-5 rounded-lg border border-gray-200 bg-white transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-blue-400">
         <div class="absolute left-0 top-0 h-full w-1 bg-blue-500 scale-y-0 group-hover:scale-y-100 origin-top transition-transform duration-300"></div>
-        <h3 class="text-lg font-semibold group-hover:text-blue-600 transition-colors">Emotional ChatBuddy</h3>
+        <h3 class="text-lg font-semibold group-hover:text-blue-600 transition-colors">StockQuest</h3>
         <p class="text-sm text-gray-600 mt-1 group-hover:text-gray-800 transition">
-          Developed an AI-powered chatbot that provides emotional support and personalized interaction to users.
+          Developed a full-stack stock market learning and analysis platform to help users understand stock market concepts and track their learning progress.
         </p>
         <ul class="text-sm text-gray-600 mt-2 list-disc ml-5 space-y-1">
-          <li>Integrated mood detection to provide context-aware responses</li>
-          <li>Designed engaging features like mini-games and calming content</li>
-          <li>Enabled 24/7 conversational support using AI models</li>
+          <li>Learn stock market concepts through structured lessons designed to make financial topics easier to understand.</li>
+          <li>Track completed lessons and monitor your overall learning progress from a dedicated progress dashboard</li>
+          <li>Covers important stock market concepts and provides a structured path for users who are starting or improving their understanding of investing.</li>
+          <li>Access your own learning data and progress</li>       
         </ul>
         <div class="mt-3 flex flex-wrap gap-2">
           <span class="text-xs px-2 py-1 bg-gray-100 rounded group-hover:bg-blue-100 transition">React</span>
-          <span class="text-xs px-2 py-1 bg-gray-100 rounded group-hover:bg-blue-100 transition">Spring Boot</span>
-          <span class="text-xs px-2 py-1 bg-gray-100 rounded group-hover:bg-blue-100 transition">MySQL</span>
-          <span class="text-xs px-2 py-1 bg-gray-100 rounded group-hover:bg-blue-100 transition">AI</span>
+          <span class="text-xs px-2 py-1 bg-gray-100 rounded group-hover:bg-blue-100 transition">Javascript</span>
+          <span class="text-xs px-2 py-1 bg-gray-100 rounded group-hover:bg-blue-100 transition">MongoDB</span>
+          <span class="text-xs px-2 py-1 bg-gray-100 rounded group-hover:bg-blue-100 transition">Node.Js</span>
+           <span class="text-xs px-2 py-1 bg-gray-100 rounded group-hover:bg-blue-100 transition">Express.Js</span>        
         </div>
       </div>
 

@@ -23,25 +23,7 @@ const About = () => {
             and seamless user experiences.
             I’m continuously learning and adapting to new tools and architectures to grow as a developer and contribute effectively to modern software systems.</p>
 
-          <div className="flex gap-4 mt-2">
-            <a
-              href="https://www.linkedin.com/feed/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-600 hover:text-white transition duration-300"
-            >
-              LinkedIn
-            </a>
-
-            <a
-              href="https://github.com/ath-harne?tab=repositories"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 border border-gray-800 text-gray-800 rounded-md hover:bg-gray-800 hover:text-white transition duration-300"
-            >
-              GitHub
-            </a>
-          </div>
+         
         </div>
 
 
